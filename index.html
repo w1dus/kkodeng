@@ -22,15 +22,186 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="main opacity"> <!--메인에서만 main opacity 클래스 추가 -->
             <div class="inner">
                 <a href="./index.html">
                     <img src="./img/header/logo.png" class="logo" alt="수제 꼬치・오뎅・덮밥 꼬뎅 이자카야" />
                 </a>
                 <ul class="menuList">
                     <li><a href="#" class="scroll_move">생맥주 이벤트</a></li><!--메인에만 scroll_move 클래스 넣어주세요.-->
+                    <li><a href="#" class="scroll_move">브랜드스토리</a></li>
+                    <li><a href="#" class="scroll_move">인테리어</a></li>
+                    <li><a href="#" class="scroll_move">차별성</a></li>
+                    <li><a href="#" class="scroll_move">메뉴소개</a></li>
+                    <li><a href="#" class="scroll_move">수익률</a></li>
+                    <li><a href="#" class="scroll_move">창업절차</a></li>
+                    <li><a href="#" class="scroll_move">자주묻는 질문</a></li>
                 </ul>
+                <a href="#" class="applyBtn">상담신청</a>
             </div>
         </header>
+
+        <section class="main">
+            <article class="bannerArti">
+                <div class="inner">
+                    <img src="./img/header/logo.png" class="logo" alt="수제 꼬치・오뎅・덮밥 꼬뎅 이자카야" />
+                    <h1 class="t1"><span class="yello">대한민국</span> NO.1 <span class="yello">이자카야</span></h1>
+                    <h2 class="t2"><span class="underline">이자카야는 역시 <b class="yello">꼬뎅입니다</b></span></h2>
+                    <div class="yelloBar"></div>
+                    <div class="contentBox">
+                        365일 내내 안정적인 <br class="moBr"/>수익을 가져다 주는 오뎅바는
+                    </div>
+                    <div class="yelloBg">꼬뎅이 유일 합니다</div>
+                    <div class="txt">대한민국 최초 개인오뎅바 시스템 도입<br/>프라이빗하면서도 멋스러운 이자카야의 느낌을 담았습니다.</div>
+                </div>
+            </article>
+        </section>
+
+
+        <section class="RightFloatingSec">
+            <article class="applyWrap">
+                <button type="button" class="showHideBtn">
+                    <img src="./img/floatingMenu/arrow.svg" alt="화살표" class="icon">
+                </button>
+                <div class="floatingPc">
+                    <div class="titleBox">
+                        <div class="t1">꼬뎅 <span>창업상담</span></div>
+                        <img src="./img/floatingMenu/bar.png" alt="line" class="bar">
+                        <div class="telBox">
+                            <a href="tel:055-601-5332">055-601-5332</a>
+                        </div>
+                    </div>
+                    <ul class="formList">
+                        <li>
+                            <input type="text" name="wr_name" required="" placeholder="이름" class="ipt">
+                        </li>
+                        <li>
+                            <input type="number" inputmode="numeric" pattern="[0-9]*" name="wr_subject" required="" placeholder="연락처" class="ipt">
+                        </li>
+                        <li>
+                            <select clas="ipt" name="wr_1" class="ipt">
+                                <option value="">창업희망지역</option>
+                                <option value="서울">서울</option>
+                                <option value="부산">부산</option>
+                                <option value="대구">대구</option>
+                                <option value="인천">인천</option>
+                                <option value="광주">광주</option>
+                                <option value="대전">대전</option>
+                                <option value="세종">세종</option>
+                                <option value="울산">울산</option>
+                                <option value="경기">경기</option>
+                                <option value="강원">강원</option>
+                                <option value="충북">충북</option>
+                                <option value="충남">충남</option>
+                                <option value="전북">전북</option>
+                                <option value="전남">전남</option>
+                                <option value="경북">경북</option>
+                                <option value="경남">경남</option>
+                                <option value="제주">제주</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select clas="ipt" name="wr_2" class="ipt">
+                                <option value="">상담구분</option>
+                                <option value="매장이 없는 예비 창업자">매장이 없는 예비 창업자</option>
+                                <option value="매장을 보유한 신규 창업자">매장을 보유한 신규 창업자</option>
+                                <option value="유사업종 변경 희망자">유사업종 변경 희망자</option>
+                                <option value="공간 분할 희망 기존 창업자">공간 분할 희망 기존 창업자</option>
+                                <option value="춘장집 창업 아이템 관심 창업자">춘장집 창업 아이템 관심 창업자</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <label class="agreeBox">
+                        <input type="checkbox" checked="" id="agree2">
+                        <div class="txt">개인정보 수집 동의 <span class="privacy_view">(확인)</span></div>
+                    </label>
+                    <button type="submit" class="submitBtn">상담신청</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="moBottomFloatingSec hide">
+            <article class="applyWrap">
+                <div class="inner">
+                    <div class="titleBox">
+                        <div class="title">
+                            꼬뎅<br>
+                            <span>창업상담</span>
+                        </div>
+                        <div class="telBox">
+                            <a href="tel:055-601-5332">
+                                055-601-5332
+                            </a>
+                        </div>
+                        <button type="button" class="showHideBtn">
+                            <img src="./img/floatingMenu/arrow.svg" class="icon" alt="화살표">
+                        </button>
+                    </div>
+                    <ul class="formList">
+                        <li>
+                            <input type="text" name="wr_name" required="" placeholder="이름" class="ipt">
+                        </li>
+                        <li>
+                            <input type="number" inputmode="numeric" pattern="[0-9]*" name="wr_subject" required="" placeholder="연락처" class="ipt">
+                        </li>
+                        <li>
+                            <select clas="ipt" name="wr_1" class="ipt">
+                                <option value="">창업희망지역</option>
+                                <option value="서울">서울</option>
+                                <option value="부산">부산</option>
+                                <option value="대구">대구</option>
+                                <option value="인천">인천</option>
+                                <option value="광주">광주</option>
+                                <option value="대전">대전</option>
+                                <option value="세종">세종</option>
+                                <option value="울산">울산</option>
+                                <option value="경기">경기</option>
+                                <option value="강원">강원</option>
+                                <option value="충북">충북</option>
+                                <option value="충남">충남</option>
+                                <option value="전북">전북</option>
+                                <option value="전남">전남</option>
+                                <option value="경북">경북</option>
+                                <option value="경남">경남</option>
+                                <option value="제주">제주</option>
+                            </select>
+                        </li>
+                        <li>
+                            <select clas="ipt" name="wr_2" class="ipt">
+                                <option value="">상담구분</option>
+                                <option value="매장이 없는 예비 창업자">매장이 없는 예비 창업자</option>
+                                <option value="매장을 보유한 신규 창업자">매장을 보유한 신규 창업자</option>
+                                <option value="유사업종 변경 희망자">유사업종 변경 희망자</option>
+                                <option value="공간 분할 희망 기존 창업자">공간 분할 희망 기존 창업자</option>
+                                <option value="춘장집 창업 아이템 관심 창업자">춘장집 창업 아이템 관심 창업자</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <label class="agreeBox">
+                        <input type="checkbox" checked="" id="agree3">
+                        <div class="txt">개인정보 수집 동의 <span class="privacy_view">(확인)</span></div>
+                    </label>
+                    <button type="submit" class="submitBtn">상담신청</button>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <div class="inner">
+                <img src="./img/header/logo.png" alt="수제 꼬치・오뎅・덮밥 꼬뎅 이자카야" class="logo" />
+                <ul class="infoList">
+                    <li>대표 : 000</li>
+                    <li class="bar"></li>
+                    <li>사업자등록번호 : 000-00-00000</li>
+                    <li class="bar"></li>
+                    <li>서울특별시 00000</li>
+                    <!-- <li class="bar"></li> -->
+                    <li>문의 :  0000-0000</li>
+                    <li class="bar"></li>
+                    <li>E-mail : 0000@naver.com</li>
+                </ul>
+                <div class="copy_right">© 꼬뎅. All rights reserved.</div>
+            </div>
+        </footer>
     </body>
 </html>

@@ -11,15 +11,17 @@ document.addEventListener("scroll", function(){
 
 const headerScrollHandler = () => {
     /* header */
-    const header_main = document.querySelector('header');
+    const header_main = document.querySelector('header.main');
 
     if(header_main){
         document.addEventListener("scroll", function(){
             let scroll_top = window.scrollY;
             if(scroll_top > 0){
-                header_main.classList.add("on");
+                header_main.classList.remove("opacity");
+                header_main.classList.add("show");
             }else{
-                header_main.classList.remove("on");
+                header_main.classList.add("opacity");
+                header_main.classList.remove("show");
             }
         })
     }
