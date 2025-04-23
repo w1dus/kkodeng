@@ -63,7 +63,9 @@ header.opacity{ background: rgba(0, 0, 0, 0.10); }
 
 }
 @media screen and (max-width: 650px) { 
+    header .logo{ width: 150px; }
     header .menuList{ padding: 20px 20px; gap: 15px; top: -100px; }
+    header .applyBtn{ font-size: 14px; padding: 5px 15px; border-radius: 4px; }
 }
 
 
@@ -83,6 +85,7 @@ footer .copy_right{ font-size: 14px;  opacity: .8; text-align: center; margin-to
 }
 @media screen and (max-width: 650px) { 
     footer{ padding-bottom: 120px; }
+    footer .logo{ width: 150px; }
 }
 
 
@@ -181,17 +184,106 @@ footer .copy_right{ font-size: 14px;  opacity: .8; text-align: center; margin-to
 .main .bannerArti .t2{ text-shadow: 4px 9px 11px rgba(0, 0, 0, 0.34); font-size: 70px; font-family: 'Ttangs BudaeJjigae'; color: #fff; }
 .main .bannerArti .underline{ padding: 0 15px; background: linear-gradient(to top, rgba(243, 180, 86, .4) 50%, transparent 50%); }
 .main .bannerArti .yelloBar{ margin: 25px auto; width:100%; max-width: 140px; height: 2px; background: #F3B456; }
+.main .bannerArti .contentBox{ font-family: 'Ttangs BudaeJjigae'; color: #fff; font-size: 40px; }
+.main .bannerArti .moBr{ display: none; }
+.main .bannerArti .yelloBg{ font-family: 'Ttangs BudaeJjigae'; text-shadow: 4px 9px 11px rgba(0, 0, 0, 0.34); font-size: 40px; color: #6B4814; background-color: #F3B456; border-radius: 100px; padding: 10px 50px; margin-top: 10px; }
+.main .bannerArti .txt{ margin-top: 40px; text-align: center; font-size: 26px; color: #fff; line-height: 1.5em; }
+
+@media screen and (max-width: 1250px) {
+    .main .bannerArti .logo{ max-width: 200px; }
+    .main .bannerArti .t1{ font-size: 30px; }
+    .main .bannerArti .t2{ font-size: 45px; }
+    .main .bannerArti .yelloBar{ max-width: 80px; }
+    .main .bannerArti .contentBox{ font-size: 25px; }
+    .main .bannerArti .yelloBg{ font-size: 25px; }
+    .main .bannerArti .txt{ font-size: 20px; }
+}
+@media screen and (max-width: 900px) {
+    .main .bannerArti{ min-height: unset; }
+}
+@media screen and (max-width: 650px) {
+    .main .bannerArti { min-height: 100vh; }
+    .main .bannerArti .logo{ max-width: 40vw; }
+    .main .bannerArti .t1{ font-size: 6vw; }
+    .main .bannerArti .t2{ font-size: 7vw; }
+    .main .bannerArti .underline{ padding: 0 1vw; }
+    .main .bannerArti .yelloBar{ max-width: 15vw; }
+    .main .bannerArti .contentBox{ font-size: 4vw; }
+    .main .bannerArti .yelloBg{ font-size: 4vw; padding: 2vw 5vw 1vw 5vw; }
+    .main .bannerArti .txt{ font-size: 14px; }
+}
+
+.main .mainTitle{ font-family: 'Ttangs BudaeJjigae'; color: #fff; text-shadow: 4px 9px 11px rgba(0, 0, 0, 0.34); font-size: 60px; }
+.main .yello_t{ color: #F3B456; }
+.main .mainSubTitle{ font-family: 'Ttangs BudaeJjigae'; color: #fff; font-size: 30px; }
+.main .mainTitle + .mainSubTitle{ margin-top: 6px; }
+.main .mainContent{ font-family: 'Ttangs BudaeJjigae'; margin-top: 26px; color: #fff; line-height: 1.5em; margin-top: 26px; font-size: 24px; }
 
 
+@media screen and (max-width: 1250px) {
+    .main .mainTitle{ font-size: 45px; }
+    .main .mainSubTitle{ font-size: 24px; }
+    .main .mainContent{ font-size: 18px; }
+
+}
+@media screen and (max-width: 650px) {
+    .main .mainTitle{ font-size: 30px; }
+    .main .mainSubTitle{ font-size: 18px; }
+    .main .mainContent{ font-size: 14px; font-weight: 300; }
+}
 
 
+/* .main .beerArti */
+.main .beerArti{ min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 100px 0; background-image: url('../img/main/beerArti/background.png'); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.main .beerArti .halfBox{ display: flex; align-items: flex-start; justify-content: space-between; }
+.main .beerArti .halfBox .leftBox{ flex-shrink: 0; }
+.main .beerArti .halfBox .borderBox{ max-width: 530px; padding: 30px; color: #fff; margin-top: 26px; background-color: #000; border: 2px solid #F3B456; border-radius: 10px; }
+.main .beerArti .halfBox .borderBox .box + .box{ margin-top:14px; }
+.main .beerArti .halfBox .borderBox .box .title{  font-family: 'Ttangs BudaeJjigae'; font-size: 24px; }
+.main .beerArti .halfBox .borderBox .box .content{ margin-top: 5px; font-weight: 700; font-size: 20px; line-height: 1.5em; }
+.main .beerArti .halfBox .rightBox .beer{ max-width: 100%; }
 
+@media screen and (max-width: 1250px) {
+    .main .beerArti .halfBox .rightBox .beer{ width: 45vw; }
+    .main .beerArti .halfBox .borderBox{ padding: 15px; max-width: 400px; }
+    .main .beerArti .halfBox .borderBox .box .title{ font-size: 18px; }
+    .main .beerArti .halfBox .borderBox .box .content{ font-size: 16px; }
+}
+@media screen and (max-width: 900px) {
+    .main .beerArti .halfBox { min-height: unset; gap: 40px; text-align: center; flex-direction: column; }
+    .main .beerArti .halfBox .leftBox{ width: 100%; }
+    .main .beerArti .halfBox .borderBox{ margin: 20px auto 0 auto; }
+    .main .beerArti .halfBox .rightBox{ width: 100%; }
+    .main .beerArti .halfBox .rightBox .beer{ width: 80%; max-width: 600px; margin: 0 auto; display: block; }
+}
+@media screen and (max-width: 650px) {
+    .main .beerArti{ padding: 50px 0; }
+    .main .beerArti .halfBox .borderBox .box .content br{ display: none; }
+    .main .beerArti .halfBox .borderBox .box .content{ font-size: 14px; word-break: keep-all; }
+}
 
+/* .main .rotateArti */
+.main .rotateArti{ padding: 200px 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background-image: url('../img/main/rotateArti/background.png'); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.main .rotateArti .mainTitle{ word-break: keep-all; line-height: 1.5em; }
+.main .rotateArti .moBr{ display: none; }
 
+@media screen and (max-width: 900px) {
+    .main .rotateArti .moBr{ display: inline-block; }
+    .main .rotateArti .mainTitle{ font-size: 5vw; } 
+}
+@media screen and (max-width: 650px) {
+    .main .rotateArti{ min-height: unset; }
+    .main .rotateArti .mainTitle{ font-size: 6vw; } 
+}
 
-
-
-
-
-
+/* .main .interiorArti */
+.main .interiorArti{ position: relative; overflow: hidden; }
+.main .interiorArti .bgList{ display: flex; }
+.main .interiorArti .bgList > li{ width: calc(100% / 3); }
+.main .interiorArti .bgList .item{ display: flex; align-items: center; justify-content: center; text-align: center; background-color: #000; min-height: 100vh; position: relative; }
+.main .interiorArti .bgList .item .bg{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; 
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+    /* transform: scaleX(0); transition: transform .5s;  */
+}
+.main .interiorArti .bgList .item .t1{ width: 100%; color: #fff; position: relative; z-index: 1; font-family: 'Ttangs BudaeJjigae'; }
 
