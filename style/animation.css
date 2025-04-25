@@ -1,1 +1,190 @@
 @charset "utf-8";
+
+
+/* animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; */
+.main .bannerArti .logo{ opacity: 0; }
+.main .bannerArti .t1{ opacity: 0; }
+.main .bannerArti .t2{ opacity: 0; }
+.main .bannerArti .yelloBar{ opacity: 0; }
+.main .bannerArti .contentBox{ opacity: 0; }
+.main .bannerArti .yelloBg{ opacity: 0; }
+.main .bannerArti .txt{ opacity: 0; }
+
+
+.main .bannerArti.on .logo{ animation: fadeIn 0.7s ease-in-out 0s 1 forwards running; }
+.main .bannerArti.on .t1{ animation: fadeIn 0.7s ease-in-out 0.05s 1 forwards running; }
+.main .bannerArti.on .t2{ animation: fadeIn 0.7s ease-in-out 0.1s 1 forwards running; }
+.main .bannerArti.on .yelloBar{ animation: fadeIn 0.7s ease-in-out 0.15s 1 forwards running; }
+.main .bannerArti.on .contentBox{ animation: fadeIn 0.7s ease-in-out 0.2s 1 forwards running; }
+.main .bannerArti.on .yelloBg{ animation: fadeIn 0.7s ease-in-out 0.25s 1 forwards running; }
+.main .bannerArti.on .txt{ animation: fadeIn 0.7s ease-in-out 0.3s 1 forwards running; }
+
+.main .beerArti .halfBox .leftBox{ opacity: 0; }
+.main .beerArti.on .halfBox .leftBox{ animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
+.main .beerArti .halfBox .rightBox{ opacity: 0; }
+.main .beerArti.on .halfBox .rightBox{ animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .rotateArti .mainTitle{ opacity: 0; }
+.main .rotateArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .interiorArti .mainTitle{ opacity: 0; }
+.main .interiorArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .interiorArti .bgList .item .bg{ transform:scaleX(0); }
+.main .interiorArti.on .bgList > li:nth-child(1) .item .bg{ animation: transformX .5s ease-in-out 0s 1 forwards running; }
+.main .interiorArti.on .bgList > li:nth-child(2) .item .bg{ animation: transformX .5s ease-in-out 0.2s 1 forwards running; }
+.main .interiorArti.on .bgList > li:nth-child(3) .item .bg{ animation: transformX .5s ease-in-out 0.4s 1 forwards running; }
+
+.main .interiorArti2 .mainTitle{ opacity: 0; }
+.main .interiorArti2.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .interiorArti2 .mainContent{ opacity: 0; }
+.main .interiorArti2.on .mainContent{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+
+.main .resultArti .mainTitle{ opacity: 0; }
+.main .resultArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .resultArti .videoList > li{ opacity: 0; }
+.main .resultArti.on .videoList > li{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .resultArti.on .videoList > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+
+.main .threePointArti .titleWrap{ opacity: 0; }
+.main .threePointArti.on .titleWrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .threePointArti .itemList > li{ opacity: 0; }
+.main .threePointArti.on .itemList > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .threePointArti.on .itemList > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .threePointArti.on .itemList > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+.main .halfArti .mainTitle{ opacity: 0; }
+.main .halfArti.on .mainTitle{ animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; }
+.main .halfArti .textBox .content{ opacity: 0; }
+.main .halfArti.on .textBox .content{ animation: fadeInRight 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .halfArti .black .mainTitle{ opacity: 0; }
+.main .halfArti.on .black .mainTitle{ animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
+.main .halfArti .textBox.black .content{ opacity: 0; }
+.main .halfArti.on .textBox.black .content{ animation: fadeInLeft 0.5s ease-in-out 0.1s 1 forwards running; }
+
+
+.main .stabilityArti .mainTitle{ opacity: 0; }
+.main .stabilityArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .stabilityArti .logoList{ opacity: 0; }
+.main .stabilityArti.on .logoList{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .stabilityArti .mainContent{ opacity: 0; }
+.main .stabilityArti.on .mainContent{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+
+.main .menuArti .mainTitle{ opacity: 0; }
+.main .menuArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .menuArti .menuImgList{ opacity: 0; }
+.main .menuArti.on .menuImgList{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .menuArti .menuList{ opacity: 0; }
+.main .menuArti.on .menuList{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+
+.main .returnArti .mainTitle{ opacity: 0; } 
+.main .returnArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .returnArti .halfBox .graph{ opacity: 0; }
+.main .returnArti.on .halfBox .graph{ animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
+.main .returnArti .halfBox .bill{ opacity: 0; }
+.main .returnArti.on .halfBox .bill{ animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .revenueArti .mainTitle{ opacity: 0; }
+.main .revenueArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .revenueArti .mainContent{ opacity: 0; }
+.main .revenueArti.on .mainContent{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .revenueArti .mainTableWrap{ opacity: 0; }
+.main .revenueArti.on .mainTableWrap{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.main .revenueArti .mainTableInfo{ opacity: 0; }
+.main .revenueArti.on .mainTableInfo{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+.main .textArti .inner{ opacity: 0; }
+.main .textArti.on .inner{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+
+.main .openPriceArti .mainTitle{ opacity: 0; }
+.main .openPriceArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .openPriceArti .mainContent{ opacity: 0; }
+.main .openPriceArti.on .mainContent{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .openPriceArti .mainTableWrap{ opacity: 0; }
+.main .openPriceArti.on .mainTableWrap{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.main .openPriceArti .mainTableInfo{ opacity: 0; }
+.main .openPriceArti.on .mainTableInfo{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+.main .openPriceArti .mainTableWrap td.labelBox .label{ opacity: 0; }
+.main .openPriceArti.on .mainTableWrap td.labelBox .label{ animation: showHide 2s linear infinite; }
+
+.main .procedureArti .mainTitle{ opacity: 0; }
+.main .procedureArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .procedureArti .mainContent{ opacity: 0; }
+.main .procedureArti.on .mainContent{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+
+.main .procedureArti .itemList > li{ opacity: 0; }
+.main .procedureArti.on .itemList > li:nth-child(1){ animation: fadeIn 0.5s ease-in-out 0.01s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(2){ animation: fadeIn 0.5s ease-in-out 0.02s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(3){ animation: fadeIn 0.5s ease-in-out 0.03s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(4){ animation: fadeIn 0.5s ease-in-out 0.04s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(5){ animation: fadeIn 0.5s ease-in-out 0.05s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(6){ animation: fadeIn 0.5s ease-in-out 0.06s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(7){ animation: fadeIn 0.5s ease-in-out 0.07s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(8){ animation: fadeIn 0.5s ease-in-out 0.08s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(9){ animation: fadeIn 0.5s ease-in-out 0.09s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(10){ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(11){ animation: fadeIn 0.5s ease-in-out 0.11s 1 forwards running; }
+.main .procedureArti.on .itemList > li:nth-child(12){ animation: fadeIn 0.5s ease-in-out 0.12s 1 forwards running; }
+
+.main .storeArti .mainTitle{ opacity: 0; }
+.main .storeArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .storeArti .goldBorderBox{ opacity: 0; }
+.main .storeArti.on .goldBorderBox{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .qnaArti .mainTitle{ opacity: 0; }
+.main .qnaArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .qnaArti .qnaList{ opacity: 0; }
+.main .qnaArti.on .qnaList{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .applyArti .smallTitle{ opacity: 0; }
+.main .applyArti.on .smallTitle{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .applyArti .mainTitle{ opacity: 0; }
+.main .applyArti.on .mainTitle{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .applyArti .halfBox .whiteBox{ opacity: 0; }
+.main .applyArti.on .halfBox .whiteBox{ animation: fadeInRight 0.5s ease-in-out 0.2s 1 forwards running; }
+.main .applyArti .halfBox .contentBox{ opacity: 0; }
+.main .applyArti.on .halfBox .contentBox{ animation: fadeInLeft 0.5s ease-in-out 0.2s 1 forwards running; }
+
+@keyframes transformX {
+    0% {transform: scaleX(0); }
+    100% { transform: scaleX(1);}
+}
+
+@keyframes fadeIn {
+    0% {transform: translate3d(0px, 30px, 0px); }
+    100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes fadeInRight {
+    0% { opacity: 0; transform: translate3d(30px, 0, 0px); }
+    100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes fadeInLeft {
+    0% { opacity: 0; transform: translate3d(-30px, 0, 0px); }
+    100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+@keyframes scale {
+    0% { opacity: 0; transform: scale(.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes showHide {
+    0%, 100% { opacity: 0; } 
+    50% { opacity: 1; } 
+    80% { opacity: 1; } 
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+

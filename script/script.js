@@ -6,7 +6,38 @@ document.addEventListener("DOMContentLoaded", function(e){
     applyRightBtn();
     interiorArti2_slide();
     youtubeBackground();
+    qnaBox();
+    privacyPopup();
+    scroll_move();
 })
+
+const scroll_move = () => {
+    $(".scroll_move").click(function(e){  
+        var header_height = $('header').outerHeight(true);
+        e.preventDefault();       
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - header_height}, 1000);
+    });
+}
+
+const privacyPopup = () => {
+    /* privacy popup */
+    $('.privacy_view').click(function(){
+        $('.f_popup_bg').addClass('on');
+    })
+    $('.f_popup_bg').click(function(){
+        $('.f_popup_bg').removeClass('on');
+    })
+    $('.f_popup_bg .content_wrap').click(function(e){
+        e.stopPropagation();
+    })
+}
+
+const qnaBox = () => {
+    $('.main .qnaArti .qnaList .qnaDiv.qBox').click(function(){
+        $(this).siblings('.aBox').slideToggle();
+        $(this).toggleClass('active')
+    })
+}
 
 const youtubeBackground = () => {
     $('[data-vbg]').youtube_background(); // 실행
