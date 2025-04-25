@@ -286,6 +286,7 @@ footer .imgText{ color: rgba(255,255,255,.4);  text-align: center; margin-top: 5
 /* .main .interiorArti */
 .main .interiorArti{  position: relative; overflow: hidden; display: flex; align-items: flex-start; justify-content: center; text-align: center; }
 .main .interiorArti .mainTitle{ margin-top: 10%; position: absolute; z-index: 2; }
+.main .interiorArti .mainTitle br.moBr{ display: none; }
 .main .interiorArti .bgList{ width: 100%; display: flex; }
 .main .interiorArti .bgList > li{ width: calc(100% / 3); }
 .main .interiorArti .bgList .item{ height: 100%; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; text-align: center; background-color: #000; position: relative; }
@@ -305,6 +306,7 @@ footer .imgText{ color: rgba(255,255,255,.4);  text-align: center; margin-top: 5
 @media screen and (max-width: 1250px) {
     .main .interiorArti .bgList .item .t1{ font-size: 25px; }
     .main .interiorArti .bgList .item .t2{ font-size: 16px; padding-bottom: 30%; }
+    .main .interiorArti .mainTitle br.moBr{ display: inline-block; }
 }
 @media screen and (max-width: 1100px) {
     .main .interiorArti .bgList{ flex-direction: column; }
@@ -456,7 +458,7 @@ footer .imgText{ color: rgba(255,255,255,.4);  text-align: center; margin-top: 5
 .main .menuArti .menuList > li{ width: calc(100% / 5); } 
 .main .menuArti .menuList .item{ background-repeat: no-repeat; background-position: bottom 10% center; padding: 40px 18px; height: 100%; background-color: #222; border: .5px solid #F3B456; }
 .main .menuArti .menuList .bg1 .item{ min-height: 600px; background-image: url('../img/main/menuArti/icon1.svg'); }
-.main .menuArti .menuList .bg2 .item{ min-height: 550px; background-image: url('../img/main/menuArti/icon2.svg');  }
+/* .main .menuArti .menuList .bg2 .item{ min-height: 550px; background-image: url('../img/main/menuArti/icon2.svg');  } */
 .main .menuArti .menuList .item .t1{ text-align: center; font-size: 28px; font-weight: 700;  } 
 .main .menuArti .menuList .item .t2{ margin-top: 2px; font-size: 16px; text-align: center; }
 .main .menuArti .menuList .item .boxWrap::before{content:''; margin: 10px auto 40px auto; display:block; width:80px; height: 4px; background-color: #F3B456; }
@@ -474,7 +476,7 @@ footer .imgText{ color: rgba(255,255,255,.4);  text-align: center; margin-top: 5
 @media screen and (max-width: 650px) {
     .main .menuArti .menuList > li{ width: calc(100% / 2); }
     .main .menuArti .menuList .bg1 .item{ min-height: unset; padding-bottom: 120px;  }
-    .main .menuArti .menuList .bg2 .item{ min-height: unset; padding-bottom: 120px;  }
+    /* .main .menuArti .menuList .bg2 .item{ min-height: unset; padding-bottom: 120px;  } */
 }
 @media screen and (max-width: 450px) {
     .main .menuArti .menuList > li{ width: calc(100% / 1); }
